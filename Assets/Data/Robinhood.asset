@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f06bd71f63664642a9b19cf4d375557, type: 3}
+  m_Name: Robinhood
+  m_EditorClassIdentifier: Assembly-CSharp::CharData
+  charName: Robin
+  avatar: {fileID: 8426001226949151373, guid: efe77216800d1604896c1030730525ed, type: 3}
+  hp: 100
+  mp: 150
+  basicDamage: 60
+  IdleUp: {fileID: 7400000, guid: 49763b6968272f642b7607ceaab1776e, type: 2}
+  IdleDown: {fileID: 7400000, guid: 10efc5fad4e795b4393dba89ca29fdae, type: 2}
+  IdleLeft: {fileID: 7400000, guid: 497f71277e60a1a419ee7006987a2621, type: 2}
+  IdleRight: {fileID: 7400000, guid: 92e4c6e2322733240a8b07e379b281de, type: 2}
+  walkUp: {fileID: 7400000, guid: 4fc85ac946450734997ee9b26d978608, type: 2}
+  walkDown: {fileID: 7400000, guid: 2ef6a66ba6db4924c9f16339edd567ec, type: 2}
+  walkLeft: {fileID: 7400000, guid: 093dae2e54f387b42af4a4048053846d, type: 2}
+  walkRight: {fileID: 7400000, guid: ec3862b84bdadc641b5ddd06d2e08fa1, type: 2}
+  skills: []

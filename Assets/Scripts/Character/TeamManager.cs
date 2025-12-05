@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
@@ -10,6 +11,7 @@ public class TeamSaveData
 public class TeamManager : MonoBehaviour
 {
     public static TeamManager Instance { get; private set; }
+    public event Action OnTeamChanged;
     public TeamSlot[] slots;
     public CharData[] allCharacters;
 
@@ -19,9 +21,23 @@ public class TeamManager : MonoBehaviour
         else Destroy(gameObject);
     }
 
+    public CharData[] GetAssignedCharacters()
+    {
+        List<CharData> list = new List<CharData>();
+
+        foreach (var slot in slots)
+        {
+            if (slot.assignedChar != null)
+                list.Add(slot.assignedChar);
+        }
+        return list.ToArray();
+    }
+
     public void SetCharInSlot(int index, CharData c)
     {
+        slots[index].assignedChar = c; // GÁN LẠI TEAM CHÍNH XÁC
         SaveTeam();
+        OnTeamChanged?.Invoke();
     }
 
     public void SaveTeam()
@@ -76,4 +92,6 @@ public class TeamManager : MonoBehaviour
     {
         LoadTeam();
     }
+
+    
 }

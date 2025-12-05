@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f06bd71f63664642a9b19cf4d375557, type: 3}
+  m_Name: Merlin
+  m_EditorClassIdentifier: Assembly-CSharp::CharData
+  charName: Merlin
+  avatar: {fileID: -2808867470349600170, guid: a36a7b45f6f7c964493697a80cf73885, type: 3}
+  hp: 100
+  mp: 150
+  basicDamage: 90
+  IdleUp: {fileID: 7400000, guid: 40a6e96cb831d314ab2ea0bdd3d07c41, type: 2}
+  IdleDown: {fileID: 7400000, guid: 9887b826723f0cc4b8aaf4774bcbe9e4, type: 2}
+  IdleLeft: {fileID: 7400000, guid: f6c89be0b9036af4ead9e4b3de85d17d, type: 2}
+  IdleRight: {fileID: 7400000, guid: 7911cec199f423547bb101dacd25a038, type: 2}
+  walkUp: {fileID: 7400000, guid: 85f1147e68c31fe4cbbb3412275a052f, type: 2}
+  walkDown: {fileID: 7400000, guid: d56b87bdfba47aa4c99e10e7ffc2067b, type: 2}
+  walkLeft: {fileID: 7400000, guid: aa24718502113a746a8a04c843b92eb8, type: 2}
+  walkRight: {fileID: 7400000, guid: a6ead2d2ff264394fbde21e0f55b83ef, type: 2}
+  skills: []

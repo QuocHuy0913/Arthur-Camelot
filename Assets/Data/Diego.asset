@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f06bd71f63664642a9b19cf4d375557, type: 3}
+  m_Name: Diego
+  m_EditorClassIdentifier: Assembly-CSharp::CharData
+  charName: Diego
+  avatar: {fileID: -1876518252500770382, guid: 566a44b6090e88b4dbeeae5d394d782e, type: 3}
+  hp: 150
+  mp: 0
+  basicDamage: 50
+  IdleUp: {fileID: 7400000, guid: ee4e11b585ede5a44a984591f0d1200a, type: 2}
+  IdleDown: {fileID: 7400000, guid: 22baf3ae73d2cfd4db09b931b781fa22, type: 2}
+  IdleLeft: {fileID: 7400000, guid: 0cdf05d40b1ac4649beac54ae25f776a, type: 2}
+  IdleRight: {fileID: 7400000, guid: 857434db77a1f854189f31e75d7735bd, type: 2}
+  walkUp: {fileID: 7400000, guid: 7e6738b4daabdb643a61f6f179008148, type: 2}
+  walkDown: {fileID: 7400000, guid: 44a67dcd2fdf89c4591632e38c160f26, type: 2}
+  walkLeft: {fileID: 7400000, guid: 9dbea21f274f8764795c6a31e3a020aa, type: 2}
+  walkRight: {fileID: 7400000, guid: 0abb0f8a58d9b9942a0f9a6e178214f6, type: 2}
+  skills: []

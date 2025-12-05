@@ -17,12 +17,12 @@ MonoBehaviour:
   hp: 150
   mp: 50
   basicDamage: 50
-  IdleUp: {fileID: 0}
-  IdleDown: {fileID: 7400000, guid: 76b7807b6f66678488a4ceacad749cbc, type: 2}
-  IdleLeft: {fileID: 0}
-  IdleRight: {fileID: 0}
-  walkUp: {fileID: 7400000, guid: ac93ae29ce0d5364496072c78b736cdf, type: 2}
-  walkDown: {fileID: 7400000, guid: 1d17d363f5e19134e84eb4e8e5cc34bb, type: 2}
-  walkLeft: {fileID: 7400000, guid: 72a292b0850640049afe0fbd6661aa17, type: 2}
-  walkRight: {fileID: 7400000, guid: 0bbad62d826e96a47a0861267da01969, type: 2}
+  IdleUp: {fileID: 7400000, guid: 068d6364752ff84428cbc7b662046573, type: 2}
+  IdleDown: {fileID: 7400000, guid: 560314e90285f0441839a45b2d8edc1b, type: 2}
+  IdleLeft: {fileID: 7400000, guid: e720c9b815ce948449b100fcc8398ce7, type: 2}
+  IdleRight: {fileID: 7400000, guid: f893e1bf6f678cc4cbf3df93a9494c33, type: 2}
+  walkUp: {fileID: 7400000, guid: 3c25d0ee67b6f2b4eb44663514a53e44, type: 2}
+  walkDown: {fileID: 7400000, guid: ed96763d1da0fe44289e9e86821c2328, type: 2}
+  walkLeft: {fileID: 7400000, guid: 0727990f8f17fda4bacc90b90f9ebb62, type: 2}
+  walkRight: {fileID: 7400000, guid: f5b18538ee6278440ba9b5c370bc4dd0, type: 2}
   skills: []
